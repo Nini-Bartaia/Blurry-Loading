@@ -1,0 +1,26 @@
+body{
+    overflow: hidden;
+}
+body img{
+    width:auto;
+    /* -webkit-filter: blur(10px); */
+    filter: blur(0px);
+    margin-left: -8px;
+    margin-top: -10px;  
+   
+}
+
+.box{
+    position: absolute;
+    width: 200px;
+    height:200px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
